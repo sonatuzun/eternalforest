@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Tree3D.gd" type="Script" id=1]
+
+[node name="Tree" type="Node2D" groups=[
+"tree",
+]]
+position = Vector2( -2, 1 )
+script = ExtResource( 1 )
+
+[node name="Label1" type="Label" parent="."]
+margin_left = -73.0
+margin_top = -41.0
+margin_right = -33.0
+margin_bottom = -27.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 5.0
+margin_top = -37.0
+margin_right = 45.0
+margin_bottom = -23.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
